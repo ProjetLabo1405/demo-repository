@@ -1,0 +1,177 @@
+/* Autre */
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    margin-top: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+}
+
+img {
+    max-width: 50px;
+    max-height: 50px;
+}
+/* Fin - Autre */
+
+
+/* Menu d'entête */
+header {
+    display: flex;
+
+    background-color: white;
+
+    border-bottom: solid 0px rgb(104, 104, 104);
+    border-radius: 0 0 15px 15px;
+
+    box-shadow: 0px 0px 20px rgb(104, 104, 104);
+    padding: 15px 50px;
+
+    height: 50px;
+}
+/* Fin - Menu d'entête */
+
+
+/* Bouton */
+button {
+    display: flex;
+    align-items: center;
+
+    border: 0;
+    border-radius: 5px;
+        
+    padding: 10px 15px;
+}
+
+/* Bouton du menu d'entête */
+.blue {
+    background-color: #f0f5ff;
+    color: #2F6FED;
+    font-size: 16px;
+    font-style: bold;
+
+    margin-left: 100px;
+}
+
+/* Bouton de Log in */
+.darkblue {
+    background-color: #2F6FED;
+    color: white;
+    font-size: 16px;
+    font-style: bold;
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 0px 20px;
+}
+
+.darkblue-button {
+    display: flex;
+    justify-content: center;
+}
+/* Fin - Bouton */
+
+
+/* Cadre */
+.frame {
+    width: 500px;
+    padding: 50px;
+
+    background-color: white;
+
+    border-radius: 10px;
+    box-shadow: 0 0 5px #aab0c1;
+
+    text-align: left;
+}
+/* Fin - Cadre */
+
+
+/* Titre */
+h1 {
+    background-color: white;
+    color: #2F6FED;
+}
+
+h2 {
+    background-color: white;
+    color: #2F6FED;
+
+    margin-top: 15px;
+}
+
+h3 {
+    background-color: white;
+
+    margin-bottom: 30px;
+}
+
+/* Pour pouvoir centré le titre h3 "create an account" */
+.new-account {
+    display: flex;
+    justify-content: center;
+}
+/* Fin - Titre */
+
+
+/* Mise en forme du texte */
+.red {
+    color: #f25858;
+    font-weight: bold;
+}
+
+.mini {
+    font-size: 14px;
+}
+
+.text-blue {
+    font-weight: bold;
+}
+
+a {
+    color: #2F6FED;
+}
+
+/* Quand on passe la souris sur un lien */
+a:hover {
+    color: #f25858;
+    text-decoration: none;
+}
+/* Fin - Mise en forme du texte */
+
+
+/* Case à remplir */
+input {
+    border: 0;
+    border-radius: 5px;
+    max-width: 100%;
+
+    background-color: #f0f5ff;
+
+    margin-bottom: 5px;
+}
+
+/* Texte à l'intérieur de la case à remplir */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+
+    box-sizing: border-box;
+}
+
+/* Apparence la case à remplir quand on écrit dedans */
+input[type="text"]:focus {
+    border-color: #2F6FED;
+    box-shadow: 0 0 5px #2F6FED;
+
+    outline: none;
+}
