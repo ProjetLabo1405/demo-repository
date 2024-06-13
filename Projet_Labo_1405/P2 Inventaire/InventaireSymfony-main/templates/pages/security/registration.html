@@ -12,25 +12,27 @@
     </header>
 
     <main>
-      <div>
+      <div class="register">
         <h1>Create an account</h1>
-        <h2>Last name<red>*</red></h2>
-        <input type="lastname" placeholder="Last name" />
+        <div class="name">
+          <div class="lastname">
+            <h2>Last name<red>*</red></h2>
+            <input type="lastname" placeholder="Last name" />
+          </div>
+          <div class="firstname">
+            <h2>First Name<red>*</red></h2>
+            <input type="firstname" placeholder="First Name" />
+          </div>
+        </div>
         
-        <first_name>
-          <h2>First Name<red>*</red></h2>
-        </first_name>
-        <first_name>
-          <input type="firstname" placeholder="First Name" />
-        </first_name>
         <h2>E-mail<red>*</red></h2>
         <input type="email" placeholder="Email" />
         <h2>Passwords<red>*</red></h2>
         <input type="password" placeholder="Password" />
         <h2>Confirm passwords<red>*</red></h2>
         <input type="password" placeholder="Password" />
-        <button>Register</button><br>
-        Already have an account ? <a href="login.html">Login</a> 
+        <button>Register <img class="imgregister" src="assets/register.png" alt="register" /> </button><br>
+        <P>Already have an account ? <a href="login.html">Login</a> </P>
       </div>
     </main>
   </body>
