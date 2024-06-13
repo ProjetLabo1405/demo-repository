@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Peripheral Page Laboratory Project</title>
+    <link rel="stylesheet" href="../accueil/style.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="assets/logo.png" alt="logo" />
+      <button class="blue button">
+        <img src="assets/overview.png" alt="overview" />Overview
+      </button>
+      <button class="gray button">
+        <img src="assets/periph.png" alt="peripheral" />Peripherals Devices
+      </button>
+      <button class="gray button">
+        <img src="assets/user.png" alt="user" />Users
+      </button>
+      <div class="user-info">
+        <div class="user icon">
+          <img src="assets/user-icon.png" alt="user-icon" />
+        </div>
+        <div class="login icon">
+          <img src="assets/input-icon.png" alt="login-icon" />
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="peripheral-container">
+        <div class="search-bar">
+          <input type="text" placeholder="Search a peripheral" />
+          <button class="search-button">
+            <img src="assets/search.png" alt="search-icon" />
+          </button>
+        </div>
+        <div class="peripheral-main">
+          <h2 class="peripheral-title">Peripherals</h2>
+          <button class="add-peripherals">Add a peripheral</button>
+          <div class="filter-container">
+            <h3 class="filter-text">FILTER</h3>
+            <input type="checkbox" name="filter" value="filter_case" />
+          </div>
+          <div class="peripheral-devices">
+            <div class="device">
+              <div class="device-name">Desktop Iqep6P7bGuRNpH4</div>
+              <div class="device-status">
+                <h3 class="device-status-name">ENABLE</h3>
+              </div>
+              <input type="checkbox" name="state" />
+            </div>
+            <div class="device">
+              <div class="device-name">Desktop 8p2HZOJTz5FQ49Q</div>
+              <div class="device-status">
+                <h3 class="device-status-name">FIXING</h3>
+              </div>
+              <input type="checkbox" name="state" />
+            </div>
+            <div class="device">
+              <div class="device-name">Desktop 1Odhq1n0wGC0GSK</div>
+              <div class="device-status">
+                <h3 class="device-status-name">RETIRED</h3>
+              </div>
+              <input type="checkbox" name="state" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="update-container">
+        <div class="last-updates">
+          <h2>Last updates</h2>
+          <button class="updates-button"></button>
+          <button class="updates-button"></button>
+          <button class="updates-button"></button>
+          <a href="#"><h3>Show more</h3></a>
+          <button class="updates-button-2"></button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
